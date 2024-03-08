@@ -1,0 +1,83 @@
+
+@font-face {
+  font-family: 'InterBlack';
+  src: url('../public/fonts/Inter-Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'InterMediun';
+  src: url('../public/fonts/Inter-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'InterBold';
+  src: url('../public/fonts/Inter-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'InterRegular';
+  src: url('../public/fonts/Inter-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  line-height: 1.6em;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100dvh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "InterRegular", sans-serif;
+  
+  #__next {
+    width: 100%;
+    min-height: 100dvh;
+  }
+}
+
+h1, h2, h3, h4 {
+  text-wrap: balance;
+}
+li {
+  list-style-type: none;
+}
+p {
+  text-wrap: pretty;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+input, select, textarea {
+    padding: 13px 18px;
+    border-radius: 8px;
+    border: 1px solid #d5dfdb;
+    background-color: #fff;
+    font: 10px "InterRegular", sans-serif;
+    font-weight: 500;
+    color: #666;
+}
+input:active, input:focus, select:active, select:focus {
+  border: 1px solid #b3ccc2;
+  outline: 0px;
+  box-shadow: 0 0 0 2px rgba(179,204,194,.2);
+  background-color: #fff;
+}
+.main {
+  width: 100%;
+  max-width: 900px;
+  min-height: 100dvh;
+  display: block;
+  margin: 0 auto;
+}
